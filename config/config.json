@@ -6,6 +6,13 @@
     "host": "localhost",
     "dialect": "mysql"
   },
+  "heidi_dev": {
+    "username": "root",
+    "password": "13513",
+    "database": "sellsomething_db",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
   "test": {
     "username": "root",
     "password": null,
