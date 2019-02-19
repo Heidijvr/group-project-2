@@ -55,7 +55,7 @@ More Info About Item
  <br>
 
  Add Item           
- <img src="https://github.com/Heidijvr/group-project-2/blob/master/public/styles/img/project2.AddItem.png" alt="Add Item">
+ <img src="https://github.com/Heidijvr/group-project-2/blob/master/public/styles/img/project2.Add.Item.png" alt="Add Item">
  <br>
 
 Update/Delete (Needs to be updated) 
