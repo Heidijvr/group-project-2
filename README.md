@@ -47,7 +47,7 @@ Before accessing the application, users have to register and create login creden
  <br>
 
  Items for Sale
- <img src="https://github.com/Heidijvr/group-project-2/blob/master/public/styles/img/project2.ItemsForSale.png" alt="Items for Sale">
+ <img src="https://github.com/Heidijvr/group-project-2/blob/master/public/styles/img/Project2.ItemsForSale.png" alt="Items for Sale">
  <br>
 
 More Info About Item
