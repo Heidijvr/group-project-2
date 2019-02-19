@@ -21,14 +21,15 @@ describe("GET /api/examples", function() {
 
   it("should find all examples", function(done) {
     // Add some examples to the db to test with
-    db.Items.bulkCreate([{
-      text: "car",
-      description: "it's car"
-    },
-    {
-      text: "bike",
-      description: "it's bike"
-    }
+    db.Items.bulkCreate([
+      {
+        text: "car",
+        description: "it's car"
+      },
+      {
+        text: "bike",
+        description: "it's bike"
+      }
     ]).then(function() {
       // Request the route that returns all examples
       request.get("/api/examples").end(function(err, res) {
