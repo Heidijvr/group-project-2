@@ -45,7 +45,7 @@ Once you have MySQL installed, you will need to create a database using your myS
 
 <strong>Once you have the sellsomething_db database set up, run the following commands at your command prompt:</strong>
 
-           1. git clone https://github.com/ramezray/Project2.git ENTER
+           1. git clone https://github.com/Heidijvr/group-project-2 ENTER
            
            2. cd project2 ENTER
            
