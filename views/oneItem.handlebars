@@ -30,7 +30,7 @@
 <div id="home">
     <br>
     <div class="container row col-12 justify-content-center">        
-        <h3>More Info about Item</h3>
+        <h3><i class="fas fa-info-circle"></i> More Info about Item</h3>
     </div>
     <br>
     <div class="container row col-12 text-justify">
@@ -38,14 +38,14 @@
         <div class="col-6">
             <div class="container row col-8 "><img src="{{item.image}}" style="width:300px; height:300px" "display:block"></div>
             <br>
-            <div class=" row col-4 badge badge-info"><b>Title</b></div>
-            <div class="col-10">{{item.title}}</div>
-            <div class="row col-4 badge badge-info "><b>Description:</b> </div>
-            <div class="col-10">{{item.description}}</div>
-            <div class="row col-4 badge badge-info"><b>Price: </b> </div>
-            <div class="col-10"><span>$</span>{{item.price}}</div>
-            <div class=" row col-4 badge badge-info"><b>Seller Contact Info:</b> </div><br>
-            <div class="col-10">{{item.sellerContact}}</div>
+            <div class=" row col-4 badge badge-info"><b><h4>Title:</h4></b></div>
+            <div class="col-10"><h5>{{item.title}}</h5></div>
+            <div class="row col-4 badge badge-info "><b><h4>Description:</h4></b></div>
+            <div class="col-10"><h5>{{item.description}}</h5></div>
+            <div class="row col-4 badge badge-info"><b><h4>Price $:</h4></b></div>
+            <div class="col-10"><h5><span>$</span>{{item.price}}</h5></div>
+            <div class=" row col-4 badge badge-info"><b><h4>Seller Contact Info:</h4></b></div><br>
+            <div class="col-10"><h5>{{item.sellerContact}}</h5></div>
         </div>
     </div>
 </div>

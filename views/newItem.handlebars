@@ -24,22 +24,24 @@
 
 
 <div id="home">
+  <br>
   <div class="container">
     <div class="row">
       <div class="col-8 offset-2">
-        <h2>Adding Item Form!</h2>
+        <h2><i class="fab fa-wpforms"></i> Adding Item Form!</h2>
         <form class="clearfix mb-4" action="/api/newItem" method="POST"  enctype="multipart/form-data">
           <div class="form-group">
-            <label for="title" class="font-weight-bold">Title</label>
+            <br>
+          <h5><label for="title" class="font-weight-bold">Title</label></h5>
             <input type="title" id="title" name="title" class="form-control" placeholder="Enter Title" value="" />
           </div>
           <div class="form-group">
-            <label for="description" class="font-weight-bold">Description</label>
+            <h5><label for="description" class="font-weight-bold">Description</label></h5>
             <textarea class="form-control" id="description" name="description" aria-describedby="description"
               placeholder="Enter Description"></textarea>
           </div>
           <div class="form-group">
-            <label for="category" class="font-weight-bold">Category</label>
+            <h5><label for="category" class="font-weight-bold">Category</label></h5>
             <select class="form-control" name="categories" id="">
               <option class="dropdown-item" value="everything">Select Category</option>
               <option class="dropdown-item" value="Clothing">Clothing</option>
@@ -49,12 +51,12 @@
             </select>
           </div>
           <div class="form-group">
-            <label for="price" class="font-weight-bold">Price:</label>
+            <h5><label for="price" class="font-weight-bold">Price:</label></h5>
             <input class="form-control" id="price" name="price" aria-describedby="price"
               placeholder="Enter Price"></input>
           </div>
           <div class="form-group">
-            <label for="sellerContact" class="font-weight-bold">Your Contact Info</label>
+            <h5><label for="sellerContact" class="font-weight-bold">Your Contact Info</label></h5>
             <input type="sellerContact" id="sellerContact" name="sellerContact" class="form-control" placeholder="Best Way to Reach You" value="" />
           </div>
           <div class="form-group">

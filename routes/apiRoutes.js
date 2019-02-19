@@ -17,10 +17,10 @@ if (!process.env.S3_KEY) {
   useS3 = false;
   console.log("No S3 Key available. Using local upload");
   storage = multer.diskStorage({
-    destination: function (req, file, cb) {
+    destination: function(req, file, cb) {
       cb(null, "upload");
     },
-    filename: function (req, file, cb) {
+    filename: function(req, file, cb) {
       // Make the filename unique by adding a timestamp
       cb(null, Date.now().toString() + "-" + file.originalname);
     }
